@@ -26,7 +26,7 @@ buttons.forEach(function (button) {
 			// Очищаем строку "str" и очищаем элемент "display"
 			str = ''
 			display.innerHTML = str
-		} else if (dets.target.innerHTML == 'DEL') {
+		} else if (dets.target.innerHTML === 'DEL') {
 			// Удаляем последний символ из строки "str" и обновляем элемент "display"
 			str = str.slice(0, -1)
 			display.innerHTML = str
